@@ -7,3 +7,260 @@ body {
   color: $bodyColor;
   font-family: $bodyFont;
 }
+p{
+  font-size: 1.2rem;
+}
+h1{
+  font-size: 2.2rem;
+}
+.navbar{
+  font-size: 1.0rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration-style: wavy;
+  background-color: #333333 !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.274);
+  box-shadow: none !important;
+}
+
+.header{
+  height: 500px; 
+  background-image: linear-gradient(to top, #1c2331, #1a212f, #19202e, #171e2c, #161d2b, #151c29, #151b28, #141a26, #141923, #141921, #14181e, #14171c);  
+  
+  }
+  @media  (max-width: 767px) { 
+    .header{
+      height: auto;
+      padding: 30px;
+    }
+   }
+
+.view img,mask{ 
+  height: 400px;
+ 
+}
+.carousel{
+  padding: 10px;
+  
+}
+@media  (max-width: 767px) { 
+  .carousel{
+    display: none;
+  }
+ }
+.RA, .RA1, .RA2, .RA3{
+  background-color: rgb(247, 247, 247);
+  height: auto;
+  display: flex;
+  
+}
+.RA-img{
+  width:100%; 
+  height:400px; 
+  padding: 0; 
+  background-size: cover; 
+  transform: translate(40px,40px);
+}
+.RA-Meta {
+  background-color: rgb(255, 255, 255); 
+  height: auto;
+}
+.RA-Meta h1{
+  margin-left:20%; 
+  margin-top: 10%;
+
+}
+.RA-Meta p{
+  margin-left:20%;
+  margin-top: 3% ; 
+  border-left: 2px solid rgb(65, 65, 70); 
+  padding: 10px; width: 60%;
+  text-align: justify;
+}
+@media  (max-width: 767px) { 
+  .RA{
+    flex-direction: column;
+    height: auto;
+  }
+  .RA-img{
+    transform: translateY(20px);
+    width: 90%;
+    margin-left: 5%;
+    height: 300px;
+  }
+  .RA-Meta h1{
+    margin-left: 0;
+    margin-top: 10%;
+  }
+  .RA-Meta p{
+    border-left: none;
+    width: 100%;
+    margin-left: 0;  
+    text-align: justify;
+    padding: 0;
+  }
+}
+.RA1-img img{
+  width: 100%;
+  background-size: cover;
+  height: 500px;
+  transform: translate(-40px,40px); 
+  
+}
+
+
+
+.RA1 h1{
+  margin-top: 15%;
+  margin-left: 15%;
+  font-size: 2.2rem;
+  color: blue;
+}
+.RA1 p{
+  width:60%;
+  margin-left: 15%;
+  border-left: 2px solid rgb(52, 141, 243);
+  padding: 10px;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+@media  (max-width: 767px) { 
+  .RA1{
+    flex-direction: column-reverse;
+    height: auto !important;
+    
+  }
+  
+  .RA1 h1{
+    margin-top: 20px;
+    margin-left: 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+    
+    
+  }
+  .RA1 p{
+    width:100%;
+    margin-left: 0;
+    border-left: none;
+    padding: 10px;
+    text-align: justify;
+    font-size: 1.2rem;
+  }
+  .RA1-img {
+    width: 100% !important;
+    height: 300px !important;
+    margin-bottom: 10px;
+    order: 1;
+    
+    
+
+  }
+  .RA1-img img{
+    width: 90%;
+    background-size: cover;
+    height: 300px;
+    margin-left: 5%;
+    transform: translate(0,20px) !important; 
+    
+    
+  }
+  .RA1-btn{
+    margin-left: 0 !important;
+    width: 100%;
+    }
+}
+.RA2-Meta{
+  background-color: white;
+}
+.RA2-Meta h1{
+  margin-left:20%; 
+  margin-top: 10%;
+
+}
+.RA2-Meta p{
+  margin-left:20%;
+  margin-top: 3% ; 
+  border-left: 2px solid rgb(65, 65, 70); 
+  padding: 10px; width: 60%;
+  text-align: justify;
+}
+
+@media  (max-width: 767px) { 
+  .RA2{
+    flex-direction: column;
+    height: auto;
+  }
+  .RA2-img{
+    transform: translateY(20px);
+    width: 90%;
+    margin-left: 5%;
+    height: 300px;
+  }
+  .RA2-Meta h1{
+    margin-left: 0;
+    margin-top: 10%;
+  }
+  .RA2-Meta p{
+    border-left: none;
+    width: 100%;
+    margin-left: 0;  
+    text-align: justify;
+    padding: 0;
+  }
+}
+.RA3-Meta h1{
+  margin-left:20%; 
+  margin-top: 15%;
+  color: blue !important;
+
+}
+.RA3-Meta p{
+  margin-left:20%;
+  margin-top: 3% ; 
+  border-left: 1px solid rgb(85, 85, 194); 
+  padding: 10px; width: 60%;
+  text-align: justify;
+}
+.RA3-btn{
+  margin-left: 20% !important;
+}
+.RA3-img img{
+  width: 100%;
+  height: 500px;
+  transform: translate(-40px,40px); 
+}
+@media  (max-width: 767px) { 
+  .RA3{
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  .RA3-img{
+    
+    width: 90%;
+    margin-left: 5%;
+    height: 300px !important;
+  }
+  .RA3-img img{
+    transform: translateY(20px);
+    width: 90%;
+    margin-left: 5%;
+    height: 300px;
+  }
+
+  .RA3-Meta h1{
+    margin-left: 0;
+    margin-top: 10%;
+  }
+  .RA3-Meta p{
+    border-left: none;
+    width: 100%;
+    margin-left: 0;  
+    text-align: justify;
+    padding: 0;
+  }
+  .RA3-btn{
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+}
